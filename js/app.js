@@ -1,7 +1,7 @@
 const modeBtn = document.querySelector('#mode-btn');
 const destroyBtn = document.querySelector('#destroy-btn');
 const eraserBtn = document.querySelector('#eraser-btn');
-const colorOptions = Array.from(document.getElementsByClassName('color-option'));
+const colorOptions = Array.from(document.getElementsByClassName('color-option'));  // forEach 사용을 위해 배열로 바꿔줌
 const color = document.querySelector('#color');
 const lineWidth = document.querySelector('#line-width');
 const canvas = document.querySelector('canvas');
