@@ -92,6 +92,7 @@ function onFileChange(event) {
     }
 }
 
+// text 삽입 이벤트
 function onDoubleClick(event) {
     const text = textInput.value;
     if (text !== '') {
@@ -103,6 +104,7 @@ function onDoubleClick(event) {
     }
 }
 
+// Image 저장 이벤트
 function onSaveClick() {
     const url = canvas.toDataURL();
     const a = document.createElement('a');
